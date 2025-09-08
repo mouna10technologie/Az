@@ -5,75 +5,108 @@
   color: #e60278;
   margin-top: 100px;
   margin-bottom: 1000px;
- 
 }
 .h1_recruteurs {
-font-size: xx-large;
-font-weight: bolder;
-font-family: Arial, Helvetica, sans-serif;
-
+  font-size: xx-large;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.h3_recruteurs{
-font-size: x-large;
-font-weight:bold;
-font-family: Georgia, 'Times New Roman', Times, serif;
+.h3_recruteurs {
+  font-size: x-large;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-
-.div_recruteurs{
-width: 250px;
-height: 300px;
-padding: 1rem;
-margin: 20px;
-border-radius: 20px;
-border-style: inset;
-border:none;
-background-color: white;
-text-align: center;
-transition: all 1s ease-in-out;
+.div_recruteurs {
+  width: 250px;
+  height: 300px;
+  padding: 1rem;
+  margin: 20px;
+  border-radius: 20px;
+  border-style: inset;
+  border: none;
+  background-color: white;
+  text-align: center;
+  transition: all 1s ease-in-out;
 }
 
-.div_recruteurs:hover{
+.div_recruteurs:hover {
   background-color: black;
   color: #ffffff; /* texte blanc */
-text-shadow:
-  0 0 5px #ff0033,
-  0 0 10px #ff0033,
-  0 0 20px #ff0033,
-  0 0 40px #ff0033;
- text-align: center;
- transition: all 1S ease-in-out;
-transform: scale(1.3);
+  text-shadow: 0 0 5px #ff0033, 0 0 10px #ff0033, 0 0 20px #ff0033,
+    0 0 40px #ff0033;
+  text-align: center;
+  transition: all 1s ease-in-out;
+  transform: scale(1.3);
 }
 
-
-.p_recruteur{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.p_recruteur {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: bolder;
   font-size: xx-large;
- 
-color: #ffffff; /* texte blanc */
-text-shadow:
-  0 0 5px #ff0033,
-  0 0 10px #ff0033,
-  0 0 20px #ff0033,
-  0 0 40px #ff0033;
- text-align: center;
- transition: all 1S ease-in-out;
+
+  color: #ffffff; /* texte blanc */
+  text-shadow: 0 0 5px #ff0033, 0 0 10px #ff0033, 0 0 20px #ff0033,
+    0 0 40px #ff0033;
+  text-align: center;
+  transition: all 1s ease-in-out;
 }
 
-.p_recruteur:hover{
+.p_recruteur:hover {
   transform: scale(1.1);
-
 }
-.Recruteurs{
+.Recruteurs {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 1rem;
-  margin:20px;
-margin-top: 100px;
-
+  margin: 20px;
+  margin-top: 100px;
+}
+.div_recruteurs1 {
+  width: 250px;
+  height: 300px;
+  padding: 1rem;
+  margin: 20px;
+  border-radius: 20px;
+  border-style: inset;
+  border: none;
+  background-color: white;
+  text-align: center;
+  transition: all 1s ease-in-out;
 }
 
+.div_recruteurs1:hover {
+  background-color: black;
+  color: #ffffff; /* texte blanc */
+  text-shadow: 0 0 5px #ff0033, 0 0 10px #ff0033, 0 0 20px #ff0033,
+    0 0 40px #ff0033;
+  text-align: center;
+  transition: all 1s ease-in-out;
+  transform: scale(1.3);
+}
+
+.p_recruteur1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+  font-size: xx-large;
+
+  color: #ffffff; /* texte blanc */
+  text-shadow: 0 0 5px #ff0033, 0 0 10px #ff0033, 0 0 20px #ff0033,
+    0 0 40px #ff0033;
+  text-align: center;
+  transition: all 1s ease-in-out;
+}
+
+.p_recruteur1:hover {
+  transform: scale(1.2);
+}
+.Recruteurs1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem;
+  margin: 20px;
+  margin-top: 100px;
+}
