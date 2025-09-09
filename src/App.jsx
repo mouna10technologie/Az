@@ -6,19 +6,15 @@ import Header from "./Header";
 import "./App.css";
 
 function App() {
-
-
   return (
     <>
-    <BrowserRouter>
-    <AppRoutes/>
-      <Header />
-      
-    
-    
-      <Footer />
+      <BrowserRouter>
+        <Header />
+        <AppRoutes />
+        <Footer />
       </BrowserRouter>
     </>
   );
 }
+
 export default App;

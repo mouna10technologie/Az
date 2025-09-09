@@ -1,114 +1,118 @@
+/* ================================
+   SECTION PRINCIPALE IA
+   ================================ */
+
 .intelligenceArtificielle {
   width: 100%;
-  height: 300px;
+  height: auto;
   text-align: center;
   color: #e60278;
   margin-top: 100px;
-  margin-bottom: 750px;
+  margin-bottom: 150px;
 }
 
+/* ================================
+   TITRES
+   ================================ */
+
 .h1_ia {
-  font-size: xx-large;
+  font-size: 3rem;
   font-weight: bolder;
   font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 10px #e60278aa;
+  margin-bottom: 0.5rem;
 }
 
 .h3_ai {
-  font-size: x-large;
+  font-size: 1.5rem;
   font-weight: bold;
   font-family: Georgia, "Times New Roman", Times, serif;
+  color: #ccc;
+  margin-bottom: 2rem;
 }
 
-.div_ia {
-  width: 250px;
-  height: 150px;
-  padding: 1rem;
-  margin: 20px;
-  border-radius: 20px;
-  border-style: inset;
-  border: none;
-  background-color: white;
-  text-align: center;
-  transition: all 1s ease-in-out;
-}
+/* ================================
+   CARTES .div_ia et .div_ai
+   ================================ */
 
-.div_ia:hover {
-  background-color: black;
-  color: #ffffff; /* texte blanc */
-  text-shadow: 0 0 5px #ff0033, 0 0 10px #ff0033, 0 0 20px #ff0033,
-    0 0 40px #ff0033;
-  text-align: center;
-  transition: all 1s ease-in-out;
-  transform: scale(1.3);
-}
-
-.p_ia {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-weight: bolder;
-  font-size: xx-large;
-
-  color: #ffffff; /* texte blanc */
-  text-shadow: 0 0 5px #ff0033, 0 0 10px #ff0033, 0 0 20px #ff0033,
-    0 0 40px #ff0033;
-  text-align: center;
-  transition: all 1s ease-in-out;
-}
-
-.p_ia:hover {
-  transform: scale(1.2);
-}
-.Ia {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 1rem;
-  margin: 20px;
-  margin-top: 100px;
-}
-
+.div_ia,
 .div_ai {
   width: 250px;
   height: 300px;
-  padding: 1rem;
+  padding: 1.5rem;
   margin: 20px;
   border-radius: 20px;
-  border-style: inset;
-  border: none;
-  background-color: white;
+
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
   text-align: center;
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  color: #fff;
 }
 
+/* Effet au survol des cartes */
+.div_ia:hover,
 .div_ai:hover {
-  background-color: black;
-  color: #ffffff; /* texte blanc */
-  text-shadow: 0 0 5px #ff0033, 0 0 10px #ff0033, 0 0 20px #ff0033,
-    0 0 40px #ff0033;
-  text-align: center;
-  transition: all 1s ease-in-out;
-  transform: scale(1.3);
+  transform: scale(1.05);
+  background-color: rgba(255, 0, 102, 0.1);
+  box-shadow: 0 15px 30px rgba(255, 0, 102, 0.3);
+  border: 1px solid rgba(255, 0, 102, 0.3);
+  text-shadow: 0 0 5px #ff0033, 0 0 10px #ff0033;
 }
 
+/* ================================
+   TEXTES DANS LES CARTES
+   ================================ */
+
+.p_ia,
 .p_ia1 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: bolder;
-  font-size: xx-large;
-
-  color: #ffffff; /* texte blanc */
-  text-shadow: 0 0 5px #ff0033, 0 0 10px #ff0033, 0 0 20px #ff0033,
-    0 0 40px #ff0033;
+  font-size: 1.8rem;
+  color: #ffffff;
+  text-shadow: 0 0 10px #ff0033;
   text-align: center;
-  transition: all 1s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
+.p_ia:hover,
 .p_ia1:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
+
+/* ================================
+   GRILLES DE CARTES
+   ================================ */
+
+.Ia,
 .Ia1 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
-  padding: 1rem;
-  margin: 20px;
-  margin-top: 100px;
+  gap: 2rem;
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* ================================
+   RESPONSIVE (MOBILE)
+   ================================ */
+
+@media screen and (max-width: 768px) {
+  .Ia,
+  .Ia1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .div_ia,
+  .div_ai {
+    width: 90%;
+    height: auto;
+  }
 }

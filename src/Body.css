@@ -1,38 +1,80 @@
-.div_ecriture {
-  width: 100%;
-  height: 150px;
-  border-radius: 20px;
- 
-  color: #ffffff;
-  background-color:black;
-  text-align: center;
-  box-shadow: 40px 50px 40px rgba(63, 11, 143, 0.5);
-  margin-top: 200px;
-  text-align: center;
-  border: none;
- 
-  transition: all 1s ease-out;
-} 
-.div_ecriture:hover{
-  color: #C27AFF;
-border-style: outset;
-box-shadow:80px 100px 80px rgba(63, 11, 143, 0.5);
-transform: scale(1);
-
-
-}
-
 body {
-  background-color: black;
-  
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* fond noir doux */
+  color: #e6e6e6; /* texte gris clair */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
 }
 
+/* Liens généraux */
+a {
+  color: #e60278;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+  color: #b00057;
+  text-decoration: underline;
+  outline: none;
+}
+
+/* Pour le composant Image */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(230, 2, 120, 0.4); /* ombre un peu plus visible */
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+/* Titres h1, h2, h3 plus élégants */
+h1,
+h2,
+h3 {
+  font-weight: 800;
+  color: #e60278;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.03em;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* Paragraphes élégants */
+p {
+  color: #ccc; /* texte clair */
+  font-size: 1.1rem;
+  max-width: 720px;
+  margin: 0 auto 1.5rem auto;
+  font-weight: 400;
+}
 .h1_body {
+  font-size: x-large;
+  text-align: center;
 }
-
-.p_body {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: bolder;
-  font-size: larger;
-  color: #c27aff;
+.h2_body {
+  font-size: x-large;
+  text-align: center;
+}
+.div_ecriture {
+  margin-top: 800px;
 }

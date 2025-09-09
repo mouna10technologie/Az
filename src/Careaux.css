@@ -3,5 +3,12 @@
   justify-content: space-between;
   margin: 1rem;
   padding: 1rem;
- 
+  background-color: #121212; /* fond noir doux */
+  color: #e6e6e6; /* texte gris clair */
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.div_globale:hover {
+  background-color: #1e1e1e; /* fond un peu plus clair au hover */
 }

@@ -3,5 +3,12 @@
   height: 300px;
   text-align: center;
   color: #e60278;
+  background: linear-gradient(135deg, #1a1a1a, #121212);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 0 0 8px rgba(230, 2, 120, 0.8);
+  padding: 1rem;
 }
-
